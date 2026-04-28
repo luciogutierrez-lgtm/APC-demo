@@ -1,4 +1,18 @@
 {
-  "key1": "twentyone two twentythree four twntyfive",
-  "key2": "six seven eight nine ten"
+  "gameInfo": {
+    "ScheduledDate": "{scheduledDate, date, medium}"
+  },
+  "gameStatus": {
+    "Count": {
+      "Balls": "{n, plural, =0 {No Balls} one {# Balls} other {# Balls}}",
+      "Outs": "{n, plural, =0 {No Outs} one {# Out} other {# Outs}}",
+      "Strikes": "{n, plural, =0 {No Outs} one {# Out} other {# Outs}}"
+    }
+  },
+  "gender": {
+    "player": "{playerGender, select, female {{playerName} has hit her first career home run!} male {{playerName} has hit his first career home run!} other {{playerName} has hit their first career home run!}}"
+  },
+  "ui": {
+    "Greeting": "Welcome, {userFirstName}!"
+  }
 }
